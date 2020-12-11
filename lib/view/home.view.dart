@@ -14,6 +14,10 @@ class HomeView extends StatelessWidget {
             child: Text('List Demo'),
             onPressed: () => Get.toNamed('/listview'),
           ),
+          RaisedButton(
+            child: Text('Picture List'),
+            onPressed: () => Get.toNamed('/picture'),
+          ),
         ],
       ),
     );
